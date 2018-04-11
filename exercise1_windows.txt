@@ -15,18 +15,132 @@ If you run into trouble, Google is your friend; there should be a lot of availab
 '''
 ----------------------------------
 hostname
+DESKTOP-AGHRVTJ
 
-
-
+gives name of host
 
 ----------------------------------
 netstat
 
+Active Connections
 
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:9500         DESKTOP-AGHRVTJ:53864  ESTABLISHED
+  TCP    127.0.0.1:27019        DESKTOP-AGHRVTJ:55186  ESTABLISHED
+  TCP    127.0.0.1:27019        DESKTOP-AGHRVTJ:55219  ESTABLISHED
+  TCP    127.0.0.1:52768        DESKTOP-AGHRVTJ:52769  ESTABLISHED
+  TCP    127.0.0.1:52769        DESKTOP-AGHRVTJ:52768  ESTABLISHED
+  TCP    127.0.0.1:52770        DESKTOP-AGHRVTJ:52771  ESTABLISHED
+  TCP    127.0.0.1:52771        DESKTOP-AGHRVTJ:52770  ESTABLISHED
+  TCP    127.0.0.1:53701        DESKTOP-AGHRVTJ:65001  ESTABLISHED
+  TCP    127.0.0.1:53830        DESKTOP-AGHRVTJ:53910  ESTABLISHED
+  TCP    127.0.0.1:53864        DESKTOP-AGHRVTJ:9500   ESTABLISHED
+  TCP    127.0.0.1:53910        DESKTOP-AGHRVTJ:53830  ESTABLISHED
+  TCP    127.0.0.1:55186        DESKTOP-AGHRVTJ:27019  ESTABLISHED
+  TCP    127.0.0.1:55219        DESKTOP-AGHRVTJ:27019  ESTABLISHED
+  TCP    127.0.0.1:65001        DESKTOP-AGHRVTJ:53701  ESTABLISHED
+  TCP    149.159.7.152:50153    218:4070               ESTABLISHED
+  TCP    149.159.7.152:53720    db5sch101102033:https  ESTABLISHED
+  TCP    149.159.7.152:53891    ec2-23-21-44-132:https  ESTABLISHED
 
+gives list of acctive connections
 
 ----------------------------------
 ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-AGHRVTJ
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : indiana.edu
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 16-6E-0E-04-10-C3
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : indiana.edu
+   Description . . . . . . . . . . . : Qualcomm Atheros AR938x Wireless Network Adapter
+   Physical Address. . . . . . . . . : D4-6E-0E-04-10-C3
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2001:18e8:2:28b9:19fe:c440:ef78:bef7(Preferred)
+   Temporary IPv6 Address. . . . . . : 2001:18e8:2:28b9:d8b1:a0ce:2c3f:3e9c(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::19fe:c440:ef78:bef7%3(Preferred)
+   IPv4 Address. . . . . . . . . . . : 149.161.240.252(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.192.0
+   Lease Obtained. . . . . . . . . . : Wednesday, April 11, 2018 5:07:24 AM
+   Lease Expires . . . . . . . . . . : Wednesday, April 11, 2018 5:27:24 AM
+   Default Gateway . . . . . . . . . : fe80::18e8:2:28b9:1%3
+                                       149.161.192.1
+   DHCP Server . . . . . . . . . . . : 10.79.1.222
+   DHCPv6 IAID . . . . . . . . . . . : 148139534
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-20-E7-C3-70-70-85-C2-3F-CD-8D
+   DNS Servers . . . . . . . . . . . : 10.79.1.1
+                                       10.234.220.20
+                                       10.79.1.2
+   Primary WINS Server . . . . . . . : 129.79.1.200
+   Secondary WINS Server . . . . . . : 129.79.5.200
+                                       134.68.220.14
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : indiana.edu
+   Description . . . . . . . . . . . : Realtek PCIe GBE Family Controller
+   Physical Address. . . . . . . . . : 70-85-C2-3F-CD-8D
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2001:18e8:2:125f:f000::1bc(Preferred)
+   Lease Obtained. . . . . . . . . . : Sunday, April 8, 2018 1:28:57 AM
+   Lease Expires . . . . . . . . . . : Wednesday, April 11, 2018 5:29:08 PM
+   Link-local IPv6 Address . . . . . : fe80::e5aa:acd6:6250:2a47%10(Preferred)
+   IPv4 Address. . . . . . . . . . . : 149.159.7.152(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, April 7, 2018 12:58:46 PM
+   Lease Expires . . . . . . . . . . : Wednesday, April 11, 2018 9:28:16 AM
+   Default Gateway . . . . . . . . . : fe80::18e8:2:125f:1%10
+                                       149.159.7.254
+   DHCP Server . . . . . . . . . . . : 10.79.1.191
+   DHCPv6 IAID . . . . . . . . . . . : 40928706
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-20-E7-C3-70-70-85-C2-3F-CD-8D
+   DNS Servers . . . . . . . . . . . : fc00:18e8::6
+                                       fc00:18e8::7
+                                       fc00:18e8::8
+                                       10.79.1.1
+                                       10.234.220.20
+                                       10.79.1.2
+   Primary WINS Server . . . . . . . : 129.79.1.200
+   Secondary WINS Server . . . . . . : 129.79.5.200
+                                       134.68.220.14
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+   Connection-specific DNS Suffix Search List :
+                                       indiana.edu
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2001:0:9d38:6ab8:30d4:1a84:6a5e:9(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::30d4:1a84:6a5e:9%2(Preferred)
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 117440512
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-20-E7-C3-70-70-85-C2-3F-CD-8D
+   NetBIOS over Tcpip. . . . . . . . : Disabled
+
+shows ip configuration
 
 
 
@@ -34,31 +148,75 @@ ipconfig /all
 ----------------------------------
 nslookup www.iub.edu
 
+Server:  ns6.iu.edu
+Address:  10.79.1.1
 
+Name:    www.iub.edu
+Addresses:  129.79.78.185
+          129.79.78.186
 
+gives name and ip address for www.iub.edu
 
 ----------------------------------
 nslookup www.google.com
 
+Server:  ns6.iu.edu
+Address:  10.79.1.1
 
+Non-authoritative answer:
+Name:    www.google.com
+Addresses:  2607:f8b0:4009:810::2004
+          172.217.8.164
+
+gives name and ip address for www.google.com
 
 
 ----------------------------------
 ping www.iub.edu
 
+Pinging www.iub.edu [129.79.78.185] with 32 bytes of data:
+Reply from 129.79.78.185: bytes=32 time=2ms TTL=61
+Reply from 129.79.78.185: bytes=32 time=2ms TTL=61
+Reply from 129.79.78.185: bytes=32 time=1ms TTL=61
+Reply from 129.79.78.185: bytes=32 time=2ms TTL=61
 
+Ping statistics for 129.79.78.185:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 2ms, Average = 1ms
+
+pings www.iub.edu
 
 
 ----------------------------------
 ping www.google.com
 
+Pinging www.google.com [2607:f8b0:4009:807::2004] with 32 bytes of data:
+Reply from 2607:f8b0:4009:807::2004: time=8ms
+Reply from 2607:f8b0:4009:807::2004: time=8ms
+Reply from 2607:f8b0:4009:807::2004: time=8ms
+Reply from 2607:f8b0:4009:807::2004: time=8ms
+
+Ping statistics for 2607:f8b0:4009:807::2004:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 8ms, Average = 8ms
 
 
+pings www.google.com
 
 ----------------------------------
 tracert www.iub.edu
 
+Tracing route to www.iub.edu [129.79.78.185]
+over a maximum of 30 hops:
 
+  1     1 ms     1 ms     1 ms  149-161-192-2.dhcp-bl.indiana.edu [149.161.192.2]
+  2     1 ms     3 ms     1 ms  ae-15.0.br2.bldc.net.uits.iu.edu [134.68.3.74]
+  3     1 ms     2 ms     1 ms  ae-33.932.dcr3.bldc.net.uits.iu.edu [134.68.3.129]
+  4     1 ms     1 ms     1 ms  zeus2-iub.gateway.indiana.edu [129.79.78.185]
+
+Trace complete.
 
 
 ----------------------------------

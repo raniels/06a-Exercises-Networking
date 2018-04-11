@@ -20,9 +20,12 @@ def multiply(a, b):
 
 def divide(a, b):
 	"""
-	
-	
-	
+	>>> 3/z
+	"You can't divide that data type!"
+	>>> 3/0
+	"You can't divide by zero!"
+	>>> 4/2
+	2
 	"""
 	try:
 		return float(a) / float(b)
